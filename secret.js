@@ -10,5 +10,6 @@ secretMessage.shift();
 console.log(secretMessage);
 secretMessage.unshift('Programing');
 console.log(secretMessage);
-secretMessage[6, 7, 8, 9, 10] = 'know,';
+secretMessage.splice(6, 10, 'know,');
+console.log(secretMessage);
 console.log(secretMessage.join());
